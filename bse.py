@@ -1,6 +1,5 @@
 import requests
 import bs4
-import pytz
 
 # For this to work I need to convert the ticker symbol to security code
 SEARCH_URL = "http://www.bseindia.com/corporates/ann.aspx?curpg=1&annflag=1&dt=&dur=D&dtto=&cat=&scrip=%s&anntype=C"
